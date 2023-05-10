@@ -14,23 +14,62 @@ a{
 }
 nav{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 50px;
+    
+    
     
 }
 .header{
     background-color: #1F2937;
+    color: white;
 }
 .right-links{
     display: flex;
     align-items: center;
-    gap: 18px;
-    margin-left: 100px;
-
+    justify-content: space-between;
+    gap: 16px;
+    font-size: 18px;
+    color: #e5e7eb;
+    order: 2;
+    
 }
 .left-links{
+    font-size: 24px;
+    color: #f9faf8;
+    order: 1;
+}
+button{
+    padding: 8px;
+    background-color: #3882F6;
+    border-radius: 4px;
+    border-color: #3882F6;
+    color: #e5e7eb;
+}
+.content{
+    margin-bottom: 8px;
     display: flex;
     align-items: center;
-    gap: 16px;
+    justify-content: center;
+    gap: 24px;
+}
+img{
+    height: 250px;
+    width: 250px;
+    padding: 8px;
+}
+.menu-img{
+    height: 180px;
+    width: 150px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
 }
