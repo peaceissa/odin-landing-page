@@ -14,8 +14,9 @@ a{
 }
 s
 .header{
-    background-color: #c29467;
+    background-color: #165674;
     color: white;
+    margin-bottom: 8px;
 }
 .right-links{
     display: flex;
@@ -54,6 +55,8 @@ img{
 .menu-img{
     height: 150px;
     width: 120px;
+    margin-bottom: 8px;
+    padding: 16px;
 }
 
 body{
@@ -61,6 +64,16 @@ body{
     flex-direction: column;
     margin: 0;
     height: 100vh;
+}
+.menu{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 32px;
+margin-bottom: 8px;
+}
+.info{
+    max-width: 200px;
 }
 footer{
     display: flex;
