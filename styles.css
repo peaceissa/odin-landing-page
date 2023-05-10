@@ -12,14 +12,9 @@ a{
     color: white;
     font-size: 18px;
 }
-nav{
-    display: flex;
-    
-    
-    
-}
+s
 .header{
-    background-color: #1F2937;
+    background-color: #c29467;
     color: white;
 }
 .right-links{
@@ -53,12 +48,12 @@ button{
 }
 img{
     height: 250px;
-    width: 250px;
+    width: 300px;
     padding: 8px;
 }
 .menu-img{
-    height: 180px;
-    width: 150px;
+    height: 150px;
+    width: 120px;
 }
 
 body{
