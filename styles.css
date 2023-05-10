@@ -1,3 +1,4 @@
+/* styling the ul */
 ul{
     list-style: none;
     margin: 0;
@@ -7,17 +8,19 @@ ul{
     justify-content: space-between;
     gap: 18px;
 }
+/* styling the a links */
 a{
     text-decoration: none;
     color: white;
     font-size: 18px;
 }
-s
+/* styling the .header section */
 .header{
     background-color: #165674;
     color: white;
     margin-bottom: 8px;
 }
+/* syling the .right-links in nav bar */
 .right-links{
     display: flex;
     align-items: center;
@@ -28,11 +31,13 @@ s
     order: 2;
     
 }
+/* styling the.left-links in the nav bar */
 .left-links{
     font-size: 24px;
     color: #f9faf8;
     order: 1;
 }
+/* adding styles to the buttons */
 button{
     padding: 8px;
     background-color: #3882F6;
@@ -40,6 +45,7 @@ button{
     border-color: #3882F6;
     color: #e5e7eb;
 }
+/* defining the layout in the .content container */
 .content{
     margin-bottom: 8px;
     display: flex;
@@ -47,24 +53,27 @@ button{
     justify-content: center;
     gap: 24px;
 }
+/* resizing the images */
 img{
     height: 250px;
     width: 300px;
     padding: 8px;
 }
+/* resizing the images in the menu section */
 .menu-img{
     height: 150px;
     width: 120px;
     margin-bottom: 8px;
     padding: 16px;
 }
-
+/* defining the body layout */
 body{
     display: flex;
     flex-direction: column;
     margin: 0;
     height: 100vh;
 }
+/* defining the layout inthe menu section */
 .menu{
 display: flex;
 align-items: center;
@@ -72,9 +81,11 @@ justify-content: center;
 gap: 32px;
 margin-bottom: 8px;
 }
+/* setting the width size of the info class */
 .info{
     max-width: 200px;
 }
+/* defining the layout of the footer */
 footer{
     display: flex;
     justify-content: center;
