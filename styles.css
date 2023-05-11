@@ -16,7 +16,7 @@ a{
 }
 /* styling the .header section */
 .header{
-    background-color: #165674;
+    /* background-color: #ffda89; */
     color: white;
     margin-bottom: 8px;
 }
@@ -37,13 +37,35 @@ a{
     color: #f9faf8;
     order: 1;
 }
+/* stlying #hero */
+#hero{
+    font-size:48px;
+    font-weight:bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #F9FAF8;
+    font-style: italic;
+
+}
+/* styling the paragraph text */
+p{
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* styling .text class items */
+.text{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
 /* adding styles to the buttons */
 button{
-    padding: 8px;
+    padding: 10px 22px 10px 22px;
     background-color: #3882F6;
-    border-radius: 4px;
+    border-radius: 6px;
     border-color: #3882F6;
     color: #e5e7eb;
+    font-size: 18px;
 }
 /* defining the layout in the .content container */
 .content{
@@ -72,6 +94,7 @@ body{
     flex-direction: column;
     margin: 0;
     height: 100vh;
+    background-color: burlywood;
 }
 /* defining the layout inthe menu section */
 .menu{
@@ -80,10 +103,44 @@ align-items: center;
 justify-content: center;
 gap: 32px;
 margin-bottom: 8px;
+/* background-color: burlywood; */
 }
 /* setting the width size of the info class */
 .info{
     max-width: 200px;
+}
+/* styling the customer feedback section */
+.customer-feedback{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 8px;
+    /* background-color: #be95ed; */
+}
+/* defining the position of the citation */
+cite{
+    display: flex;
+    justify-content: flex-end;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+/* defining the size of the blockquote */
+blockquote{
+    max-width: 300px;
+}
+/* styling the order-up section */
+.order-up-call{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    margin-bottom: 8px;
+    padding: 16px;
+    /* background-color: #a5cff7; */
 }
 /* defining the layout of the footer */
 footer{
@@ -91,4 +148,6 @@ footer{
     justify-content: center;
     align-items: center;
     margin-top: auto;
+    padding: 8px;
+    /* background-color: #ffd789; */
 }
